@@ -1,0 +1,39 @@
+target: system-verilog
+simulator: ncsim
+timescale: "1fs/1fs"
+
+#ext_libs:
+    # DaVE libraries
+    # the ext_libs will get a '-v' 
+#    - -y ${mLINGUA_DIR}/samples/prim
+#    - -y ${mLINGUA_DIR}/samples/stim
+#    - -y ${mLINGUA_DIR}/samples/meas
+#    - -y ${mLINGUA_DIR}/samples/misc
+
+# I think this is required for all systemverilog that uses read_domain
+dump_waveforms: True
+    
+defines:
+    # DaVE-related defines
+    NCVLOG: True # this is supposed to just be blank...
+    DAVE_TIMEUNIT: 1fs
+
+inc_dirs:
+    # include paths
+    - ${mLINGUA_DIR}/samples
+
+    # used to be in ext_libs
+    - ${mLINGUA_DIR}/samples/prim
+    - ${mLINGUA_DIR}/samples/stim
+    - ${mLINGUA_DIR}/samples/meas
+    - ${mLINGUA_DIR}/samples/misc
+
+flags: 
+    # extensions for library files
+    - +libext+.v
+    - +libext+.sv
+    - +libext+.vp
+
+    # this PLI file is needed for some DaVE functions
+    - -loadpli1 ${mLINGUA_DIR}/samples/pli/libpli.so:dave_boot
+

@@ -1,0 +1,2 @@
+python -m fixture.run ctle.yaml DifferentialAmpTemplateB
+python -m fixture.run ctle_model.yaml DifferentialAmpTemplateB
