@@ -1,0 +1,61 @@
+test1:
+  A:
+  - coef:
+      '1': 0.04098035264540556
+    mode:
+      dummy_digitalmode: 0
+  B:
+  - coef:
+      '1': -0.02077530236031455
+    mode:
+      dummy_digitalmode: 0
+  C:
+  - coef:
+      '1': -0.04097946969928934
+    mode:
+      dummy_digitalmode: 0
+  D:
+  - coef:
+      '1': 0.020771540463278004
+    mode:
+      dummy_digitalmode: 0
+  cm_gain:
+  - coef:
+      '1': -1.4394754579427627e-06
+    mode:
+      dummy_digitalmode: 0
+  cm_offset:
+  - coef:
+      '1': 1.2999999204564787
+    mode:
+      dummy_digitalmode: 0
+  gain:
+  - coef:
+      '1': 0.06175333258414491
+    mode:
+      dummy_digitalmode: 0
+  gain_from_cm:
+  - coef:
+      '1': 0.04041297952110326
+    mode:
+      dummy_digitalmode: 0
+  gain_to_cm:
+  - coef:
+      '1': 1.1612107746472589e-06
+    mode:
+      dummy_digitalmode: 0
+  offset:
+  - coef:
+      '1': -0.037571350898730156
+    mode:
+      dummy_digitalmode: 0
+  offsetn:
+  - coef:
+      '1': 1.318785595905851
+    mode:
+      dummy_digitalmode: 0
+  offsetp:
+  - coef:
+      '1': 1.2812142450071216
+    mode:
+      dummy_digitalmode: 0

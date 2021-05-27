@@ -1,0 +1,73 @@
+test1:
+  A:
+  - coef:
+      '1': 0.5775854219394758
+      v_fz: -0.321811909806474
+    mode:
+      dummy_digitalmode: 0
+  B:
+  - coef:
+      '1': -0.537257089999045
+      v_fz: 0.2827960229779318
+    mode:
+      dummy_digitalmode: 0
+  C:
+  - coef:
+      '1': -0.5776449062259466
+      v_fz: 0.3217911257075343
+    mode:
+      dummy_digitalmode: 0
+  D:
+  - coef:
+      '1': 0.5372038926863414
+      v_fz: -0.2827854891582877
+    mode:
+      dummy_digitalmode: 0
+  cm_gain:
+  - coef:
+      '1': -5.6340799569287725e-05
+      v_fz: -5.12513965134076e-06
+    mode:
+      dummy_digitalmode: 0
+  cm_offset:
+  - coef:
+      '1': 1.3000506161208554
+      v_fz: 4.84419095059252e-06
+    mode:
+      dummy_digitalmode: 0
+  gain:
+  - coef:
+      '1': 1.1148456554254136
+      v_fz: -0.6045922738251286
+    mode:
+      dummy_digitalmode: 0
+  gain_from_cm:
+  - coef:
+      '1': 0.08076934548002657
+      v_fz: -0.07802152337777808
+    mode:
+      dummy_digitalmode: 0
+  gain_to_cm:
+  - coef:
+      '1': -1.5717434631579152e-06
+      v_fz: -7.829479624854585e-06
+    mode:
+      dummy_digitalmode: 0
+  offset:
+  - coef:
+      '1': -0.07479998406591631
+      v_fz: 0.0723108724453354
+    mode:
+      dummy_digitalmode: 0
+  offsetn:
+  - coef:
+      '1': 1.337450608153854
+      v_fz: -0.03615059203172599
+    mode:
+      dummy_digitalmode: 0
+  offsetp:
+  - coef:
+      '1': 1.2626506240879154
+      v_fz: 0.03616028041360586
+    mode:
+      dummy_digitalmode: 0
