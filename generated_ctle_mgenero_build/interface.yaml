@@ -1,4 +1,13 @@
 description: placeholder
+metric:
+  compression:
+    description: Gain compression behavior
+  filter:
+    description: Implement filter for dynamic behavior
+    value:
+    - p1
+    - p2
+    - p2z1
 modelparam:
   etol_f:
     datatype: real
@@ -48,16 +57,19 @@ pin:
     direction: input
     is_optional: true
     name: v_fz
+    value: (0.4, 1.4)
   vdd:
     datatype: real
     description: 'Template: "None", Circuit: "vdd"'
     direction: input
     is_optional: true
     name: vdd
+    value: '1.8'
   vss:
     datatype: real
     description: 'Template: "None", Circuit: "vss"'
     direction: input
     is_optional: true
     name: vss
+    value: '0'
 template_name: placeholder
