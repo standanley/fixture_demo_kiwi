@@ -1,0 +1,46 @@
+test1:
+  cm_gain:
+  - coef:
+      '1': -1.7525511285754192e-05
+    mode:
+      dummy_digitalmode: 0
+  dcgain:
+  - coef:
+      '1': 1.04513799573611
+    mode:
+      dummy_digitalmode: 0
+  fp1:
+  - coef:
+      '1': 2900645093.5143394
+    mode:
+      dummy_digitalmode: 0
+  fp2:
+  - coef:
+      '1': 2029845107.690651
+    mode:
+      dummy_digitalmode: 0
+  fz1:
+  - coef:
+      '1': 367008704.4215239
+    mode:
+      dummy_digitalmode: 0
+  gain_from_cm:
+  - coef:
+      '1': -1.9940991403715608e-05
+    mode:
+      dummy_digitalmode: 0
+  gain_to_cm:
+  - coef:
+      '1': 6.519793396053686e-06
+    mode:
+      dummy_digitalmode: 0
+  offset:
+  - coef:
+      '1': 1.864204437880719e-05
+    mode:
+      dummy_digitalmode: 0
+  v_oc:
+  - coef:
+      '1': 1.3000146385478963
+    mode:
+      dummy_digitalmode: 0
